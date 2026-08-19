@@ -13,7 +13,7 @@ const ctx = canvas.getContext("2d");
 const shaylaImages = [];
 for (let i = 1; i <= 5; i++) {
   const img = new Image();
-  img.src = `assets/characters/shayla_run${i}.png`;
+  img.src = `img/shayla_run${i}.png`;
   shaylaImages.push(img);
 }
 
@@ -21,25 +21,25 @@ for (let i = 1; i <= 5; i++) {
 const shaylaJumpImages = [];
 for (let i = 1; i <= 6; i++) {
   const img = new Image();
-  img.src = `assets/characters/shayla_jump${i}.png`;
+  img.src = `img/shayla_jump${i}.png`;
   shaylaJumpImages.push(img);
 }
 
 // SHAYLA IDLE & SIT
 const shaylaIdle = new Image();
-shaylaIdle.src = "assets/characters/shayla_idle.png";
+shaylaIdle.src = "img/shayla_idle.png";
 
 const shaylaSit = new Image();
-shaylaSit.src = "assets/characters/shayla_sit.png";
+shaylaSit.src = "img/shayla_sit.png";
 
 const shaylaAttack = new Image();
-shaylaAttack.src = "assets/characters/shayla_attack.png";
+shaylaAttack.src = "img/shayla_attack.png";
 
 // SHAYLA ATTACK FRAMES
 const shaylaAttackImages = [];
 for (let i = 1; i <= 5; i++) {
   const img = new Image();
-  img.src = `assets/characters/shayla_attack${i}.png`;
+  img.src = `img/shayla_attack${i}.png`;
   shaylaAttackImages.push(img);
 }
 
@@ -47,45 +47,45 @@ for (let i = 1; i <= 5; i++) {
 const shaylaHurtImages = [];
 for (let i = 1; i <= 3; i++) {
   const img = new Image();
-  img.src = `assets/characters/shayla_hurt${i}.png`;
+  img.src = `img/shayla_hurt${i}.png`;
   shaylaHurtImages.push(img);
 }
 
 // SHAYLA FINISH
 const shaylaSitFinish = new Image();
-shaylaSitFinish.src = "assets/characters/shayla_sitFinish.png";
+shaylaSitFinish.src = "img/shayla_sitFinish.png";
 
 // KAFKA IDLE, LOVE, & SIT
 const kafkaIdle = new Image();
-kafkaIdle.src = "assets/characters/kafka_idle.png";
+kafkaIdle.src = "img/kafka_idle.png";
 
 const kafkaLove = new Image();
-kafkaLove.src = "assets/characters/kafka_love.png";
+kafkaLove.src = "img/kafka_love.png";
 
 const kafkaSit = new Image();
-kafkaSit.src = "assets/characters/kafka_sit.png";
+kafkaSit.src = "img/kafka_sit.png";
 
 // KAFKA ATTACK
 const kafkaAttackImages = [];
 for (let i = 1; i <= 3; i++) {
   const img = new Image();
-  img.src = `assets/characters/kafka_attack${i}.png`;
+  img.src = `img/kafka_attack${i}.png`;
   kafkaAttackImages.push(img);
 }
 
 // KAFKA FINISH
 const kafkaSitFinish = new Image();
-kafkaSitFinish.src = "assets/characters/kafka_sitFinish.png";
+kafkaSitFinish.src = "img/kafka_sitFinish.png";
 
 // KAFKA CROUCH
 const kafkaCrouch = new Image();
-kafkaCrouch.src = "assets/characters/kafka_crouch.png";
+kafkaCrouch.src = "img/kafka_crouch.png";
 
 // KAFKA RUN
 const kafkaRunImages = [];
 for (let i = 1; i <= 5; i++) {
   const img = new Image();
-  img.src = `assets/characters/kafka_run${i}.png`;
+  img.src = `img/kafka_run${i}.png`;
   kafkaRunImages.push(img);
 }
 
@@ -93,32 +93,32 @@ for (let i = 1; i <= 5; i++) {
 const kafkaJumpImages = [];
 for (let i = 1; i <= 6; i++) {
   const img = new Image();
-  img.src = `assets/characters/kafka_jump${i}.png`;
+  img.src = `img/kafka_jump${i}.png`;
   kafkaJumpImages.push(img);
 }
 
 // BAHLIL IDLE & ANIMATIONS
 const bahlilIdle = new Image();
-bahlilIdle.src = "assets/characters/bahlil_idle.png";
+bahlilIdle.src = "img/bahlil_idle.png";
 
 const bahlilAttackImages = [];
 for (let i = 1; i <= 4; i++) {
   const img = new Image();
-  img.src = `assets/characters/bahlil_attack${i}.png`;
+  img.src = `img/bahlil_attack${i}.png`;
   bahlilAttackImages.push(img);
 }
 
 const bahlilHurtImages = [];
 for (let i = 1; i <= 2; i++) {
   const img = new Image();
-  img.src = `assets/characters/bahlil_hurt${i}.png`;
+  img.src = `img/bahlil_hurt${i}.png`;
   bahlilHurtImages.push(img);
 }
 
 const bahlilWalkImages = [];
 for (let i = 1; i <= 5; i++) {
   const img = new Image();
-  img.src = `assets/characters/bahlil_walk${i}.png`;
+  img.src = `img/bahlil_walk${i}.png`;
   bahlilWalkImages.push(img);
 }
 
